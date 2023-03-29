@@ -10,20 +10,15 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: R. Fore
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/in/ruby-fore-851049106/ 
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://github.com/RubyFore 
+
 
 # Build settings
 markdown: kramdown

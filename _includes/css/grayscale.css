@@ -89,7 +89,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: rgb(88, 89, 90);
+    color: rgb(10, 30, 50);
 }
 
 .navbar-custom .nav li.active {
@@ -123,7 +123,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: rgb(9, 10, 10);
+        background-color: {{ site.color.primary-dark }};
     }
 
     .navbar-custom.top-nav-collapse {
@@ -190,10 +190,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid rgb(185, 189, 192);
     border-radius: 35px;
     font-size: 40px;
-    color: #fff;
+    color: rgb(185, 189, 192);
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
