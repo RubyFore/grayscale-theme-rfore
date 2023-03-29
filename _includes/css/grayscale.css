@@ -110,7 +110,7 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
-@media(min-width:767px) {
+/*@media(min-width:767px) {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -129,7 +129,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
-}
+}*/
 
 .intro {
     display: table;
@@ -148,30 +148,37 @@ a:focus {
 }
 
 .intro .intro-body {
-    display: table-cell;
+    display: table-row;
     vertical-align: middle;
+    width: cover;
 }
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    width: cover;
 }
 
 .brand-heading {
     color: rgb(153, 157, 160);
-    text-align: center
+    text-align: center;
 }
 .intro .intro-body .intro-text {
     font-size: 18px;
 }
 
+
+
+
 @media(min-width:767px) {
     .intro {
-        height: 100%;
+        height: 60%;
         padding: 0;
+        background-position: 25% 68%;
+        
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 80px;
     }
 
     .intro .intro-body .intro-text {
@@ -378,7 +385,7 @@ body {
 .container-lg,
 .container-md,
 .container-sm {
-  /*width: 135%;*/
+  width: cover;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
@@ -387,7 +394,7 @@ body {
 
 @media (min-width: 300px) {
   .container {
-    width: 140%;
+    width: 10%;
     max-width: 375px;
   }
 }
@@ -428,15 +435,28 @@ body {
     background-size: cover;
   }
 
+
+  @media(min-width:767px) {
+    .bg-image-full {
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: left 25% bottom 45%;
+        background-size: cover;
+    }
+
+}
+
   .row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x) * -1);
     margin-left: calc(var(--bs-gutter-x) * -1);
   }
+
+  
   #resume {
     width: 100%;
     }
