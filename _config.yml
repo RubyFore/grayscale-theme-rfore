@@ -2,12 +2,17 @@
 title: Ruby Fore
 email: your-email@domain.com
 url: rubyfore.github.io/grayscale-theme-rfore
-description: Bioinformatic data specialist, MSc in statistics, experienced programmer 
+description:  
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#FAF9F6'
   links: '#219ab3'
+
+# gallery settings
+imagesurl: "./img/"
+thumbsurl: "./img/"
+
 
 # Footer settings
 footer:
